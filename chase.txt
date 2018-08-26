@@ -1,0 +1,81 @@
+[derby][Time:1517252941961][Thread:main][ClientConnection@2957fcb0] setAutoCommit (false) called
+[derby][Time:1517252941961][Thread:main][ClientConnection@2957fcb0] createStatement () called
+[derby][Time:1517252941963][Thread:main][ClientConnection@2957fcb0] createStatement () returned Statement@1376c05c
+[derby][Time:1517252941963][Thread:main][ClientStatement@1376c05c] executeUpdate (CREATE TABLE HOUSEHOLDEARNERS(householdEarnersID INT NOT NULL PRIMARY KEY,description VARCHAR(50) NOT NULL)) called
+[derby][Time:1517252941963][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941985][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 0
+[derby][Time:1517252941985][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (1, 'Total - Number of earners in the household')) called
+[derby][Time:1517252941985][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941987][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941987][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (2, 'No earners')) called
+[derby][Time:1517252941987][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941989][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941989][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (3, '1 earner or more')) called
+[derby][Time:1517252941989][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941991][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941991][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (4, '1 earner')) called
+[derby][Time:1517252941991][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941993][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941993][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (5, '2 earners')) called
+[derby][Time:1517252941993][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941995][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941995][Thread:main][ClientStatement@1376c05c] executeUpdate (INSERT INTO HOUSEHOLDEARNERS VALUES (6, '3 or more earners')) called
+[derby][Time:1517252941995][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252941997][Thread:main][ClientStatement@1376c05c] executeUpdate () returned 1
+[derby][Time:1517252941997][Thread:main][ClientStatement@1376c05c] executeQuery (SELECT * FROM HOUSEHOLDEARNERS) called
+[derby][Time:1517252941997][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252942011][Thread:main][ClientStatement@1376c05c] executeQuery () returned ResultSet@61e717c2
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] getString () returned 1
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942011][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned Total - Number of earners in the household
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned 2
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned No earners
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned 3
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned 1 earner or more
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString () returned 4
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942012][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString () returned 1 earner
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString () returned 5
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString () returned 2 earners
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] next () returned true
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (householdEarnersID) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (1) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString () returned 6
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (description) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString (2) called
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] getString () returned 3 or more earners
+[derby][Time:1517252942013][Thread:main][ClientResultSet@61e717c2] next () called
+[derby][Time:1517252942014][Thread:main][ClientResultSet@61e717c2] next () returned false
+[derby][Time:1517252942014][Thread:main][ClientConnection@2957fcb0] rollback () called
+[derby][Time:1517252942030][Thread:main][ClientConnection@2957fcb0] isClosed () returned false
+[derby][Time:1517252942030][Thread:main][ClientConnection@2957fcb0] commit () called
+[derby][Time:1517252942030][Thread:main][ClientConnection@2957fcb0] close () called
